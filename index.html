@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MNC Mayleen Nutricare — Everyday nutrition, protein &amp; energy</title>
+<meta name="description" content="Shop Mayleen Nutricare tablets, protein and energy drink mixes. Order on WhatsApp, pay by UPI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a class="wordmark" href="#top">
+      <span class="wordmark-mnc">MNC</span>
+      <span class="wordmark-main">Mayleen Nutricare</span>
+    </a>
+    <nav class="main-nav" aria-label="Product categories">
+      <a href="#nutrition">Nutrition</a>
+      <a href="#energy">Energy</a>
+      <a href="#protein">Protein</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+    <div class="header-actions">
+      <a class="header-whatsapp" href="https://wa.me/919692915315" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.87.5 3.62 1.44 5.13L2 22l5.13-1.55a9.9 9.9 0 0 0 4.91 1.3h.01c5.46 0 9.91-4.45 9.91-9.9C21.96 6.45 17.5 2 12.04 2Zm0 18.02h-.01a8.14 8.14 0 0 1-4.15-1.14l-.3-.18-3.05.92.92-3-.19-.31a8.15 8.15 0 0 1-1.25-4.4c0-4.5 3.66-8.16 8.17-8.16 2.18 0 4.23.85 5.77 2.4a8.1 8.1 0 0 1 2.39 5.77c0 4.5-3.66 8.1-8.3 8.1Z"/></svg>
+        9692915315
+      </a>
+      <button class="cart-toggle" id="cartToggle" aria-haspopup="dialog" aria-controls="cartDrawer" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M6 6h15l-1.5 9h-12z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="9" cy="19" r="1.4" fill="currentColor"/><circle cx="17" cy="19" r="1.4" fill="currentColor"/><path d="M2 3h2.2l1 3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="hero-kicker">Made for daily strength</p>
+      <h1>Nutrition your body notices on day one.</h1>
+      <p class="hero-sub">Mayleen Nutricare makes the tablets, protein and drink mixes that carry a family through long work days, workouts and everything after. Order in seconds on WhatsApp, pay by UPI, done.</p>
+      <div class="hero-actions">
+        <a href="#nutrition" class="btn btn-primary">Shop the range</a>
+        <a href="https://wa.me/919692915315?text=Hi%20MNC%20Mayleen%20Nutricare%2C%20I%27d%20like%20to%20know%20more%20about%20your%20products." target="_blank" rel="noopener" class="btn btn-ghost">Ask on WhatsApp</a>
+      </div>
+      <dl class="hero-stats">
+        <div><dt>8</dt><dd>products, 3 ranges</dd></div>
+        <div><dt>UPI</dt><dd>pay by QR, no card needed</dd></div>
+        <div><dt>1:1</dt><dd>WhatsApp order support</dd></div>
+      </dl>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 420 460" class="hero-svg">
+        <circle cx="210" cy="230" r="190" class="blob blob-1"/>
+        <circle cx="290" cy="140" r="90" class="blob blob-2"/>
+        <rect x="140" y="150" width="80" height="150" rx="18" class="tab-jar"/>
+        <rect x="140" y="150" width="80" height="40" rx="18" class="tab-cap"/>
+        <circle cx="180" cy="230" r="6" class="tab-dot"/>
+        <circle cx="180" cy="255" r="6" class="tab-dot"/>
+        <circle cx="180" cy="280" r="6" class="tab-dot"/>
+        <path d="M250 320 q40 -60 90 -20 q30 24 -6 60 q-40 36 -84 -40Z" class="leaf"/>
+      </svg>
+      <div class="hero-badge">
+        <span class="hero-badge-stars">★★★★★</span>
+        <span>Rated by our WhatsApp customers</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRODUCT SECTIONS (rendered by JS) ============ -->
+<main id="catalog">
+  <section class="category-band" id="nutrition" data-category="Nutrition">
+    <div class="band-inner">
+      <div class="band-head">
+        <h2>Nutrition tablets</h2>
+        <p>Daily support tablets built around the essentials — taken once, felt all day.</p>
+      </div>
+      <div class="product-grid" data-grid="Nutrition"></div>
+    </div>
+  </section>
+
+  <section class="category-band band-alt" id="energy" data-category="Energy">
+    <div class="band-inner">
+      <div class="band-head">
+        <h2>Energy drink mixes</h2>
+        <p>A spoon in water, and you're back. Lemon and ginger, no crash after.</p>
+      </div>
+      <div class="product-grid" data-grid="Energy"></div>
+    </div>
+  </section>
+
+  <section class="category-band" id="protein" data-category="Protein">
+    <div class="band-inner">
+      <div class="band-head">
+        <h2>Protein &amp; shakes</h2>
+        <p>Premium protein powder and nutrition shake mixes for training days and recovery.</p>
+      </div>
+      <div class="product-grid" data-grid="Protein"></div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ REVIEWS SUMMARY ============ -->
+<section class="reviews" id="reviews">
+  <div class="band-inner">
+    <div class="band-head">
+      <h2>What people are rating</h2>
+      <p>Tap a star on any product above to leave your own rating — it updates instantly.</p>
+    </div>
+    <div class="reviews-grid" id="reviewsSummary"></div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="wordmark-mnc">MNC</span>
+      <span class="wordmark-main">Mayleen Nutricare</span>
+      <p>Everyday nutrition, protein and energy — ordered on WhatsApp, paid by UPI.</p>
+    </div>
+    <div class="footer-col">
+      <h3>Order</h3>
+      <a href="https://wa.me/919692915315" target="_blank" rel="noopener">WhatsApp: +91 96929 15315</a>
+      <a href="#nutrition">Browse the catalog</a>
+    </div>
+    <div class="footer-col">
+      <h3>Ranges</h3>
+      <a href="#nutrition">Nutrition</a>
+      <a href="#energy">Energy</a>
+      <a href="#protein">Protein</a>
+    </div>
+  </div>
+  <p class="footer-note">© <span id="year"></span> MNC Mayleen Nutricare. Prices in ₹ (INR). UPI ID and QR shown at checkout are for demonstration — replace with your real UPI details before going live.</p>
+</footer>
+
+<!-- ============ CART DRAWER ============ -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-label="Your cart">
+  <div class="cart-drawer-head">
+    <h2>Your cart</h2>
+    <button class="icon-btn" id="cartClose" aria-label="Close cart">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <p class="cart-empty" id="cartEmpty">Your cart is empty. Add a product to get started.</p>
+  </div>
+  <div class="cart-footer">
+    <div class="cart-subtotal">
+      <span>Subtotal</span>
+      <span id="cartSubtotal">₹0</span>
+    </div>
+    <button class="btn btn-primary btn-block" id="checkoutBtn" disabled>Checkout</button>
+  </div>
+</aside>
+
+<!-- ============ CHECKOUT / PAYMENT MODAL ============ -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="payment-modal" role="dialog" aria-modal="true" aria-label="Pay by UPI">
+    <button class="icon-btn modal-close" id="modalClose" aria-label="Close">✕</button>
+    <h2>Pay by UPI</h2>
+    <p class="modal-sub">Scan the QR code or use the UPI ID below in any UPI app, then confirm your order on WhatsApp so we can pack it.</p>
+
+    <div class="pay-amount">
+      <span>Amount to pay</span>
+      <strong id="modalAmount">₹0</strong>
+    </div>
+
+    <div class="qr-wrap">
+      <div id="qrcode" aria-label="UPI payment QR code"></div>
+    </div>
+
+    <div class="upi-row">
+      <div>
+        <span class="upi-label">UPI ID</span>
+        <span class="upi-id" id="upiIdText">mncmayleennutricare@upi</span>
+      </div>
+      <button class="btn btn-ghost btn-small" id="copyUpi">Copy</button>
+    </div>
+
+    <button class="btn btn-whatsapp btn-block" id="confirmWhatsapp">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.87.5 3.62 1.44 5.13L2 22l5.13-1.55a9.9 9.9 0 0 0 4.91 1.3h.01c5.46 0 9.91-4.45 9.91-9.9C21.96 6.45 17.5 2 12.04 2Zm0 18.02h-.01a8.14 8.14 0 0 1-4.15-1.14l-.3-.18-3.05.92.92-3-.19-.31a8.15 8.15 0 0 1-1.25-4.4c0-4.5 3.66-8.16 8.17-8.16 2.18 0 4.23.85 5.77 2.4a8.1 8.1 0 0 1 2.39 5.77c0 4.5-3.66 8.1-8.3 8.1Z"/></svg>
+      I've paid — send order on WhatsApp
+    </button>
+  </div>
+</div>
+
+<!-- Floating WhatsApp button -->
+<a class="fab-whatsapp" href="https://wa.me/919692915315?text=Hi%20MNC%20Mayleen%20Nutricare%2C%20I%20have%20a%20question." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.87.5 3.62 1.44 5.13L2 22l5.13-1.55a9.9 9.9 0 0 0 4.91 1.3h.01c5.46 0 9.91-4.45 9.91-9.9C21.96 6.45 17.5 2 12.04 2Zm0 18.02h-.01a8.14 8.14 0 0 1-4.15-1.14l-.3-.18-3.05.92.92-3-.19-.31a8.15 8.15 0 0 1-1.25-4.4c0-4.5 3.66-8.16 8.17-8.16 2.18 0 4.23.85 5.77 2.4a8.1 8.1 0 0 1 2.39 5.77c0 4.5-3.66 8.1-8.3 8.1Z"/></svg>
+</a>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
